@@ -1,4 +1,3 @@
-const { Router } = require ('express')
-const { User } = require ('./app/models')
+const routes = require('express').Router();
 
-module.exports = Router
+module.exports = routes;
